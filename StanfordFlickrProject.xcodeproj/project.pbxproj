@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0334A1616F904BD00F59607 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0334A1516F904BD00F59607 /* UIKit.framework */; };
+		B0334A1816F904BD00F59607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0334A1716F904BD00F59607 /* Foundation.framework */; };
+		B0334A1A16F904BD00F59607 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0334A1916F904BD00F59607 /* CoreGraphics.framework */; };
+		B0334A2016F904C100F59607 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0334A1E16F904C100F59607 /* InfoPlist.strings */; };
+		B0334A2216F904C100F59607 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0334A2116F904C100F59607 /* main.m */; };
+		B0334A2616F904C200F59607 /* SFPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0334A2516F904C200F59607 /* SFPAppDelegate.m */; };
+		B0334A2816F904C300F59607 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B0334A2716F904C300F59607 /* Default.png */; };
+		B0334A2A16F904C300F59607 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0334A2916F904C300F59607 /* Default@2x.png */; };
+		B0334A2C16F904C300F59607 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0334A2B16F904C300F59607 /* Default-568h@2x.png */; };
+		B0334A2F16F904C500F59607 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0334A2D16F904C500F59607 /* MainStoryboard.storyboard */; };
+		B0334A3216F904C600F59607 /* SFPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0334A3116F904C600F59607 /* SFPViewController.m */; };
+		B0334A3C16F9052D00F59607 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B0334A3B16F9052D00F59607 /* FlickrFetcher.m */; };
+		B0334A3F16F9055500F59607 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0334A3E16F9055500F59607 /* ImageViewController.m */; };
+		B0334A4216F9056E00F59607 /* SPoTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0334A4116F9056E00F59607 /* SPoTTableViewController.m */; };
+		B0334A4516F93D1B00F59607 /* PictureSPoTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0334A4416F93D1A00F59607 /* PictureSPoTTableViewController.m */; };
+		B0334A4816F93D3E00F59607 /* TagSPoTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0334A4716F93D3D00F59607 /* TagSPoTTableViewController.m */; };
+		B0C4872C16FA7558004906F0 /* RecentPictureSPoTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C4872B16FA7558004906F0 /* RecentPictureSPoTTableViewController.m */; };
+		B0C4873016FA75EC004906F0 /* TaggedPictureSPoTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C4872F16FA75EC004906F0 /* TaggedPictureSPoTTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0334A1116F904BD00F59607 /* StanfordFlickrProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordFlickrProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0334A1516F904BD00F59607 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0334A1716F904BD00F59607 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B0334A1916F904BD00F59607 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B0334A1D16F904C000F59607 /* StanfordFlickrProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StanfordFlickrProject-Info.plist"; sourceTree = "<group>"; };
+		B0334A1F16F904C100F59607 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B0334A2116F904C100F59607 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0334A2316F904C100F59607 /* StanfordFlickrProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StanfordFlickrProject-Prefix.pch"; sourceTree = "<group>"; };
+		B0334A2416F904C200F59607 /* SFPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFPAppDelegate.h; sourceTree = "<group>"; };
+		B0334A2516F904C200F59607 /* SFPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFPAppDelegate.m; sourceTree = "<group>"; };
+		B0334A2716F904C300F59607 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B0334A2916F904C300F59607 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B0334A2B16F904C300F59607 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B0334A2E16F904C500F59607 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B0334A3016F904C600F59607 /* SFPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFPViewController.h; sourceTree = "<group>"; };
+		B0334A3116F904C600F59607 /* SFPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFPViewController.m; sourceTree = "<group>"; };
+		B0334A3916F9052D00F59607 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		B0334A3A16F9052D00F59607 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		B0334A3B16F9052D00F59607 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		B0334A3D16F9055500F59607 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		B0334A3E16F9055500F59607 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		B0334A4016F9056E00F59607 /* SPoTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPoTTableViewController.h; sourceTree = "<group>"; };
+		B0334A4116F9056E00F59607 /* SPoTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPoTTableViewController.m; sourceTree = "<group>"; };
+		B0334A4316F93D1A00F59607 /* PictureSPoTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureSPoTTableViewController.h; sourceTree = "<group>"; };
+		B0334A4416F93D1A00F59607 /* PictureSPoTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureSPoTTableViewController.m; sourceTree = "<group>"; };
+		B0334A4616F93D3D00F59607 /* TagSPoTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagSPoTTableViewController.h; sourceTree = "<group>"; };
+		B0334A4716F93D3D00F59607 /* TagSPoTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagSPoTTableViewController.m; sourceTree = "<group>"; };
+		B0C4872A16FA7558004906F0 /* RecentPictureSPoTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentPictureSPoTTableViewController.h; sourceTree = "<group>"; };
+		B0C4872B16FA7558004906F0 /* RecentPictureSPoTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentPictureSPoTTableViewController.m; sourceTree = "<group>"; };
+		B0C4872E16FA75EC004906F0 /* TaggedPictureSPoTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaggedPictureSPoTTableViewController.h; sourceTree = "<group>"; };
+		B0C4872F16FA75EC004906F0 /* TaggedPictureSPoTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaggedPictureSPoTTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0334A0E16F904BD00F59607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0334A1616F904BD00F59607 /* UIKit.framework in Frameworks */,
+				B0334A1816F904BD00F59607 /* Foundation.framework in Frameworks */,
+				B0334A1A16F904BD00F59607 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0334A0616F904BD00F59607 = {
+			isa = PBXGroup;
+			children = (
+				B0334A1B16F904BD00F59607 /* StanfordFlickrProject */,
+				B0334A1416F904BD00F59607 /* Frameworks */,
+				B0334A1216F904BD00F59607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0334A1216F904BD00F59607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0334A1116F904BD00F59607 /* StanfordFlickrProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0334A1416F904BD00F59607 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0334A1516F904BD00F59607 /* UIKit.framework */,
+				B0334A1716F904BD00F59607 /* Foundation.framework */,
+				B0334A1916F904BD00F59607 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0334A1B16F904BD00F59607 /* StanfordFlickrProject */ = {
+			isa = PBXGroup;
+			children = (
+				B0C4872A16FA7558004906F0 /* RecentPictureSPoTTableViewController.h */,
+				B0C4872E16FA75EC004906F0 /* TaggedPictureSPoTTableViewController.h */,
+				B0C4872F16FA75EC004906F0 /* TaggedPictureSPoTTableViewController.m */,
+				B0C4872B16FA7558004906F0 /* RecentPictureSPoTTableViewController.m */,
+				B0334A4316F93D1A00F59607 /* PictureSPoTTableViewController.h */,
+				B0334A4416F93D1A00F59607 /* PictureSPoTTableViewController.m */,
+				B0334A4616F93D3D00F59607 /* TagSPoTTableViewController.h */,
+				B0334A4716F93D3D00F59607 /* TagSPoTTableViewController.m */,
+				B0334A4016F9056E00F59607 /* SPoTTableViewController.h */,
+				B0334A4116F9056E00F59607 /* SPoTTableViewController.m */,
+				B0334A3D16F9055500F59607 /* ImageViewController.h */,
+				B0334A3E16F9055500F59607 /* ImageViewController.m */,
+				B0334A2416F904C200F59607 /* SFPAppDelegate.h */,
+				B0334A2516F904C200F59607 /* SFPAppDelegate.m */,
+				B0334A2D16F904C500F59607 /* MainStoryboard.storyboard */,
+				B0334A3816F9052C00F59607 /* FlickrFetcher */,
+				B0334A3016F904C600F59607 /* SFPViewController.h */,
+				B0334A3116F904C600F59607 /* SFPViewController.m */,
+				B0334A1C16F904C000F59607 /* Supporting Files */,
+			);
+			path = StanfordFlickrProject;
+			sourceTree = "<group>";
+		};
+		B0334A1C16F904C000F59607 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0334A1D16F904C000F59607 /* StanfordFlickrProject-Info.plist */,
+				B0334A1E16F904C100F59607 /* InfoPlist.strings */,
+				B0334A2116F904C100F59607 /* main.m */,
+				B0334A2316F904C100F59607 /* StanfordFlickrProject-Prefix.pch */,
+				B0334A2716F904C300F59607 /* Default.png */,
+				B0334A2916F904C300F59607 /* Default@2x.png */,
+				B0334A2B16F904C300F59607 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0334A3816F9052C00F59607 /* FlickrFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				B0334A3916F9052D00F59607 /* FlickrAPIKey.h */,
+				B0334A3A16F9052D00F59607 /* FlickrFetcher.h */,
+				B0334A3B16F9052D00F59607 /* FlickrFetcher.m */,
+			);
+			path = FlickrFetcher;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0334A1016F904BD00F59607 /* StanfordFlickrProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0334A3516F904C600F59607 /* Build configuration list for PBXNativeTarget "StanfordFlickrProject" */;
+			buildPhases = (
+				B0334A0D16F904BD00F59607 /* Sources */,
+				B0334A0E16F904BD00F59607 /* Frameworks */,
+				B0334A0F16F904BD00F59607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StanfordFlickrProject;
+			productName = StanfordFlickrProject;
+			productReference = B0334A1116F904BD00F59607 /* StanfordFlickrProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0334A0816F904BD00F59607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SFP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Joshua Frankel";
+			};
+			buildConfigurationList = B0334A0B16F904BD00F59607 /* Build configuration list for PBXProject "StanfordFlickrProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B0334A0616F904BD00F59607;
+			productRefGroup = B0334A1216F904BD00F59607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0334A1016F904BD00F59607 /* StanfordFlickrProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0334A0F16F904BD00F59607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0334A2016F904C100F59607 /* InfoPlist.strings in Resources */,
+				B0334A2816F904C300F59607 /* Default.png in Resources */,
+				B0334A2A16F904C300F59607 /* Default@2x.png in Resources */,
+				B0334A2C16F904C300F59607 /* Default-568h@2x.png in Resources */,
+				B0334A2F16F904C500F59607 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0334A0D16F904BD00F59607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0334A2216F904C100F59607 /* main.m in Sources */,
+				B0334A2616F904C200F59607 /* SFPAppDelegate.m in Sources */,
+				B0334A3216F904C600F59607 /* SFPViewController.m in Sources */,
+				B0334A3C16F9052D00F59607 /* FlickrFetcher.m in Sources */,
+				B0334A3F16F9055500F59607 /* ImageViewController.m in Sources */,
+				B0334A4216F9056E00F59607 /* SPoTTableViewController.m in Sources */,
+				B0334A4516F93D1B00F59607 /* PictureSPoTTableViewController.m in Sources */,
+				B0334A4816F93D3E00F59607 /* TagSPoTTableViewController.m in Sources */,
+				B0C4872C16FA7558004906F0 /* RecentPictureSPoTTableViewController.m in Sources */,
+				B0C4873016FA75EC004906F0 /* TaggedPictureSPoTTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0334A1E16F904C100F59607 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0334A1F16F904C100F59607 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B0334A2D16F904C500F59607 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0334A2E16F904C500F59607 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0334A3316F904C600F59607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0334A3416F904C600F59607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0334A3616F904C600F59607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StanfordFlickrProject/StanfordFlickrProject-Prefix.pch";
+				INFOPLIST_FILE = "StanfordFlickrProject/StanfordFlickrProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B0334A3716F904C600F59607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StanfordFlickrProject/StanfordFlickrProject-Prefix.pch";
+				INFOPLIST_FILE = "StanfordFlickrProject/StanfordFlickrProject-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0334A0B16F904BD00F59607 /* Build configuration list for PBXProject "StanfordFlickrProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0334A3316F904C600F59607 /* Debug */,
+				B0334A3416F904C600F59607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0334A3516F904C600F59607 /* Build configuration list for PBXNativeTarget "StanfordFlickrProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0334A3616F904C600F59607 /* Debug */,
+				B0334A3716F904C600F59607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0334A0816F904BD00F59607 /* Project object */;
+}
